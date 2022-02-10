@@ -40,7 +40,7 @@ const questions = [
         type: 'list',
         message: 'What license would you like to use?',
         name: 'license',
-        choices: ["Apache_2.0,1,2"]
+        choices: ["Apache 2.0 License,Boost Software License 1.0,BSD 3-Clause License"]
       },
       {
         type: 'input',
