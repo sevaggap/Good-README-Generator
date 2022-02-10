@@ -10,9 +10,39 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// TODO: Create a function to generate markdown for README - Done but add table of contents
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  
+# ${data.title}
+
+## Description
+
+${data.description}
+
+## Installation
+
+${data.instructions}
+
+## Usage
+
+${data.usage}
+
+## Contributing 
+
+${data.guidlines}
+
+##Tests
+
+${data.test}
+
+## License
+
+## Questions
+
+GitHub Profile: https://github.com/${data.username}
+
+Have any questions? Email me here => ${data.email}
 
 `;
 }
