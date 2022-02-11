@@ -19,11 +19,19 @@ The purpose of this project was to create a command-line application that dynami
  
  <a name="usage"></a>
 ## Usage
-The following image shows the web application's appearance and functionality.
+The following image shows the application's appearance and functionality.
 
-The application should appear as follows:
+The application should appear as follows after executing the node index.js command:
 
-![Day Planner](./assets/images/Website-Screenshot.png)
+![Node index.js command executed](./imgs/Application-Screenshot-1.png)
+
+The application should appear as follows after the user has successfully inputed all the information:
+
+![Application success](./imgs/Application-Screenshot-2.png)
+
+The generated README should appear as follows:
+
+![Generated README](./imgs/Application-Screenshot-3.png)
 
  <a name="Credits"></a>
 ## Credits
