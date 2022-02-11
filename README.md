@@ -1,12 +1,12 @@
 # UofT-SCS-Coding-Bootcamp-Homework-9-Good-README-Generator
 
 ## Table of Contents
-[Description](#desc) <br>
-[Installation](#install) <br>
-[Usage](#usage) <br>
-[Credits](#credits) <br>
-[License](#license) <br>
-[Github](#github) <br>
+* [Description](#desc) <br>
+* [Installation](#install) <br>
+* [Usage](#usage) <br>
+* [Credits](#credits) <br>
+* [License](#license) <br>
+* [Github](#github) <br>
 
 <a name="desc"></a>
 ## Description
