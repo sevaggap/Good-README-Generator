@@ -1,10 +1,9 @@
-// TODO: Include packages needed for this application - Done
-
+// TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkdown = require("./utils/generateMarkdown")
 
-// TODO: Create an array of questions for user input - Done
+// TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -40,7 +39,7 @@ const questions = [
         type: 'list',
         message: 'What license would you like to use?',
         name: 'license',
-        choices: ["Apache 2.0 License,Boost Software License 1.0,BSD 3-Clause License"]
+        choices: ["Apache 2.0 License","Boost Software License 1.0","BSD 3-Clause License","none"]
       },
       {
         type: 'input',
@@ -54,13 +53,13 @@ const questions = [
       },
 ];
 
-// TODO: Create a function to write README file - Done
+// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
     err? console.error(err) : console.log('File successfully written!')
     )}
 
-// TODO: Create a function to initialize app - Done
+// TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then (function (data) {
@@ -71,5 +70,5 @@ function init() {
     })
 }
 
-// Function call to initialize app - Done
+// Function call to initialize app
 init();
